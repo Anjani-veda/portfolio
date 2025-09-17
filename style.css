@@ -1,0 +1,114 @@
+/* Reset default styles */
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: verdana, tahoma;
+  line-height: 1.8;
+  background:  rgba(11, 12, 12, 0.493);
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #df6464;
+  padding: 1rem 2rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 10px;
+}
+
+header ul li a {
+  color: #b5b812b9;
+  text-decoration: lightsalmon;
+}
+
+.hero {
+  text-align: center;      /* center the text inside */
+  padding: 3rem 1rem;
+  background: #e090c5;
+  color: white;
+  margin:  auto;          /* centers the block itself */
+  max-width: 800px;        /* optional: keeps it neat */
+  border-radius: 10px;     /* optional: rounded edges */
+}
+
+.hero span {
+  color: yellow;
+}
+
+section {
+  padding: 3rem 10rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align:center;
+  color:#15012c
+}
+section table {
+    margin: auto;
+}
+
+
+
+.project-list {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  border-radius: -10px;
+  flex: 1;
+  min-width: 600px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea, form button {
+  margin: 100px 0;
+  padding: 100px;
+  border-radius: 50px;
+  border: 10px solid #ccc;
+}
+
+form button {
+  background: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #4500b5;
+}
+
+footer {
+  text-align: left;
+  background: hsl(0, 0%, 20%);
+  color: green;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+
